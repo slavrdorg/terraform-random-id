@@ -14,7 +14,7 @@ data "null_data_source" "id" {
 
 terraform {
   required_providers {
-    random_id = "2.1.2"
-    null      = "2.2.0"
+    random = "2.2.0"
+    null   = "2.1.2"
   }
 }
